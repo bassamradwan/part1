@@ -102,3 +102,37 @@ body{
 
   }
   
+
+  @media only screen and (min-width: 375px) {
+    .comment-list-container {
+      flex-direction: column;
+    }
+    .comment-container {
+      width: 90%;
+    }
+    .reply-container {
+      width: 100%;
+    }
+  
+    .userinfo img {
+      width: 50%;
+    }
+    
+    .userinfo p {
+      font-size: 14px;
+    }
+    
+    .card-title {
+      font-size: 20px;
+    }
+    
+    .card-body {
+      padding: 10px;
+    }
+    .userinfo-container a {
+      width: 100%;
+      display: block;
+      text-align: center;
+      margin-top: 10px;
+    }
+  }
